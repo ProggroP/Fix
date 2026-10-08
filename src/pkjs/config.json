@@ -1,0 +1,151 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Fix Configuration"
+  },
+  {
+    "type": "text",
+    "defaultValue": "Configure your Fix watchface."
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "backcolor",
+        "defaultValue": "0x000000",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "hourcolor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Hour Color"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "minscolor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Minute Color"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "secscolor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Seconds Color"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "datecolor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Date Color"
+      },
+      {
+        "type": "color",
+        "sunlight": false,
+        "messageKey": "linecolor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Line Color"
+      },
+      {
+        "type": "heading",
+        "defaultValue": "Time & Date Style"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "twentyfour",
+        "label": "Use 24-Hour Format"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "flipscreen",
+        "label": "Flip Display"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "rotation",
+        "label": "Toggle Auto-Rotation"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "exactmins",
+        "label": "Exact Minutes",
+        "description": "Show every single minute instead of 5-minute steps. Applies to all modes that display minutes."
+      },
+      {
+        "type": "toggle",
+        "messageKey": "boldmins",
+        "label": "Bold Minutes"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "boldsecs",
+        "label": "Bold Seconds"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "bolddate",
+        "label": "Bold Date"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "fixeddate",
+        "label": "Static Date (no rotation)"
+      },
+      {
+        "type": "radiogroup",
+        "messageKey": "timemode",
+        "label": "Select Time Mode",
+        "description": "Warning: Displaying seconds will drain the battery faster!",
+        "defaultValue": "0",
+        "options": [
+          {
+            "label": "Hours only",
+            "value": "0"
+          },
+          {
+            "label": "Hours and Minutes",
+            "value": "1"
+          },
+          {
+            "label": "Hours, Minutes and Seconds",
+            "value": "2"
+          },
+          {
+            "label": "Hours, Weekday, Month and Day",
+            "value": "3"
+          },
+          {
+            "label": "Hours, Weekday and Day",
+            "value": "4"
+          },
+          {
+            "label": "Hours, Month and Day",
+            "value": "5"
+          },
+          {
+            "label": "Hours, Minutes and Day",
+            "value": "6"
+          },
+          {
+            "label": "Hours and big Minutes",
+            "value": "7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "defaultValue": "<form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'><input type='hidden' name='cmd' value='_donations'><input type='hidden' name='business' value='mobil@kark.org'><input type='hidden' name='lc' value='US'><input type='hidden' name='item_name' value='Kieselleger'><input type='hidden' name='no_note' value='0'><input type='hidden' name='currency_code' value='USD'><input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest'><input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!'><img alt='' border='0' src='https://www.paypalobjects.com/de_DE/i/scr/pixel.gif' width='1' height='1'></form>"
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]

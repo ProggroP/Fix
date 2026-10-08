@@ -1,0 +1,119 @@
+{
+    "author": "Axel Kark",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [],
+    "name": "fix",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Fix",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "backcolor",
+            "hourcolor",
+            "minscolor",
+            "secscolor",
+            "linecolor",
+            "timemode",
+            "twentyfour",
+            "flipscreen",
+            "rotation",
+            "datecolor",
+            "boldmins",
+            "bolddate",
+            "fixeddate",
+            "boldsecs",
+            "exactmins"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/logo.png",
+                    "menuIcon": true,
+                    "name": "LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Roboto-Light.ttf",
+                    "name": "ROBOTO_LIGHT_58",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Roboto-Medium.ttf",
+                    "name": "ROBOTO_MEDIUM_44",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ 0-9A-Za-z]",
+                    "file": "fonts/Roboto-Light.ttf",
+                    "name": "ROBOTO_LIGHT_36",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ 0-9A-Za-z]",
+                    "file": "fonts/Roboto-Medium.ttf",
+                    "name": "ROBOTO_MEDIUM_36",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ 0-9A-Za-z]",
+                    "file": "fonts/Roboto-Light.ttf",
+                    "name": "ROBOTO_LIGHT_25",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ 0-9A-Za-z]",
+                    "file": "fonts/Roboto-Medium.ttf",
+                    "name": "ROBOTO_MEDIUM_25",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "96d09ec9-cfff-487b-88d5-309ccd754019",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.1.0"
+}
